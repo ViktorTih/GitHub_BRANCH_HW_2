@@ -40,21 +40,14 @@
      
      `vim BR.txt-> i -> `
      
-       Id- уникальный номер дефекта
-
-       Severity - серьезность дефекта
-
-       Environment - окружение на котором обнаружен дефект
-
-       Title - краткое описание дефекта (что? где? когда?)
-
-       Steps - шаги для воспроизведения дефекта
-
-       Expected Result - ожидаемый результат
-
-       Actual Result - фактический результат
-
-       Attachment - ссылка на видео или фото дефекта
+       1. Id- уникальный номер дефекта
+       2. Severity - серьезность дефекта
+       3. Environment - окружение на котором обнаружен дефект
+       4. Title - краткое описание дефекта (что? где? когда?)
+       5. Steps - шаги для воспроизведения дефекта
+       6. Expected Result - ожидаемый результат
+       7. Actual Result - фактический результат
+       8. Attachment - ссылка на видео или фото дефекта
        
      `-> Esc :wq -> Enter`
 
@@ -72,19 +65,26 @@
  
      `git merge BugReports`
 
-6. Запушить main на внешний репозиторий. === git push –u origin main
+6. **Запушить main на внешний репозиторий :**
+ 
+     `git push –u origin main`
 
-7. В ветке CheckLists набросать структуру чек листа. ===
-  git checkout CheckList 
- vim checklict.txt -> i ->
- 1. ID
- 2. TITLE
- 3. STATUS
- 4. LINK
+7. **В ветке CheckLists набросать структуру чек листа :**
 
--> Esc :wq -> Enter
- git add checklict.txt
- git commit –m “chlt”
+     `git checkout CheckList`
+     
+     `vim checklict.txt -> i ->`
+     
+       1. ID
+       2. TITLE
+       3. STATUS
+       4. LINK
+
+      `-> Esc :wq -> Enter`
+
+      `git add checklict.txt`
+ 
+      `git commit –m “checklict.txt”`
 
 8. Запушить структуру на внешний репозиторий === git push
 
