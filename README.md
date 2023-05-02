@@ -75,10 +75,10 @@
      
      `vim checklict.txt -> i ->`
      
-       1. ID
-       2. TITLE
-       3. STATUS
-       4. LINK
+       1. Id
+       2. Title
+       3. Status
+       4. Link
 
       `-> Esc :wq -> Enter`
 
@@ -86,14 +86,24 @@
  
       `git commit –m “checklict.txt”`
 
-8. Запушить структуру на внешний репозиторий === git push
+8. **Запушить структуру на внешний репозиторий :** 
 
-9. На внешнем репозитории сделать Pull Request ветки CheckLists в main === 
- Git hub -> выбираем ветку CheckList -> нажимаем Pull request ->      выбираем checklist в main ->  жмем Compare & pull request
--> Create pull request -> Merge pull request -> Confirm merge
+      `git push`
 
-10. Синхронизировать Внешнюю и Локальную ветки Main  ===  
-    На локальном в терменале переходим в ветку main
-  git checkout main
-  git fetch
-  git pull
+9. **На внешнем репозитории сделать Pull Request ветки CheckLists в main :**
+ 
+      `заходим на Git hub -> выбираем ветку CheckList -> нажимаем Pull request ->`
+      
+      `выбираем checklist в main ->  жмем Compare & pull request->`
+      
+      `жмём Create pull request ->  жмём Merge pull request -> жмём Confirm merge`
+
+10. **Синхронизировать Внешнюю и Локальную ветки Main :** 
+
+        На локальном в "терменале" переходим в ветку main
+        
+      `git checkout main`
+  
+      `git fetch`
+  
+       `git pull`
