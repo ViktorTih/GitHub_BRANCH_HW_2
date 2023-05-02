@@ -40,33 +40,37 @@
      
      `vim BR.txt-> i -> `
      
->Id- уникальный номер дефекта
+       Id- уникальный номер дефекта
 
->Severity - серьезность дефекта
+       Severity - серьезность дефекта
 
->Environment - окружение на котором обнаружен дефект
+       Environment - окружение на котором обнаружен дефект
 
->Title - краткое описание дефекта (что? где? когда?)
+       Title - краткое описание дефекта (что? где? когда?)
 
->Steps - шаги для воспроизведения дефекта
+       Steps - шаги для воспроизведения дефекта
 
->Expected Result - ожидаемый результат
+       Expected Result - ожидаемый результат
 
->Actual Result - фактический результат
+       Actual Result - фактический результат
 
->Attachment - ссылка на видео или фото дефекта
+       Attachment - ссылка на видео или фото дефекта
+       
+     `-> Esc :wq -> Enter`
 
-    `-> Esc :wq -> Enter`
-
-    `git add BR.txt`
+      `git add BR.txt`
  
-    `git commit –m "new_BR"`
+      `git commit –m "new_BR"`
 
-4. Запушить структуру багрепорта на внешний репозиторий ==== git push
+4. **Запушить структуру багрепорта на внешний репозиторий :**
 
-5. Вмержить ветку BugReports в Main ===
- git checkout main
- git merge BugReports
+      `git push`
+    
+5. **Вмержить ветку BugReports в Main :**
+
+     `git checkout main`
+ 
+     `git merge BugReports`
 
 6. Запушить main на внешний репозиторий. === git push –u origin main
 
